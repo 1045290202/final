@@ -101,6 +101,11 @@ a {
 
 	.main > div:last-child > div:first-child > a {
 		float: right;
+		transition: all 0.4s ease-in-out;
+	}
+
+	.main > div:last-child > div:first-child > a:hover {
+		transform: rotate(180deg);
 	}
 
 	.main > div:last-child > div:first-child img {
@@ -122,10 +127,24 @@ a {
 		height: 50rem;
 	}
 
-	.main > div:first-child > a:first-child img,
+	.main > div:first-child > a:first-child img {
+		height: 6rem;
+		margin: 22rem 2.4rem;
+		transition: all 0.4s ease-in-out;
+	}
+
+	.main > div:first-child > a:first-child img:hover {
+		transform: rotateY(360deg);
+	}
+
 	.main > div:first-child > a:last-child img {
 		height: 6rem;
 		margin: 22rem 2.4rem;
+		transition: all 0.4s ease-in-out;
+	}
+
+	.main > div:first-child > a:last-child img:hover {
+		transform: rotateY(-360deg);
 	}
 }
 

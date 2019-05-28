@@ -86,6 +86,11 @@ a {
 		margin-right: 3.6rem;
 		height: 7.2rem;
 		float: right;
+		transition: all 0.4s ease-in-out;
+	}
+
+	.header img:hover {
+		transform: rotate(180deg);
 	}
 
 	.main {
@@ -130,11 +135,21 @@ a {
 	.main > div:first-child > a:first-child img {
 		height: 6rem;
 		margin: 17.75rem 2.4rem 17.75rem 0;
+		transition: all 0.4s ease-in-out;
+	}
+
+	.main > div:first-child > a:first-child img:hover{
+		transform: rotateY(360deg);
 	}
 
 	.main > div:first-child > a:last-child img {
 		height: 6rem;
 		margin: 17.75rem 0 17.75rem 2.4rem;
+		transition: all 0.4s ease-in-out;
+	}
+
+	.main > div:first-child > a:last-child img:hover{
+		transform: rotateY(-360deg);
 	}
 }
 

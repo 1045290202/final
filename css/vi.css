@@ -91,8 +91,19 @@ a {
 .header > ul li {
 	line-height: 7.2rem;
 	float: left;
+	transition: all 0.3s linear;
+}
+
+.header > ul li > a {
+	display: inline-block;
 	padding-left: 2.4rem;
 	padding-right: 2.4rem;
+	height: 100%;
+	width: 100%;
+}
+
+.header > ul li:hover {
+	background: #FFFFFF;
 }
 
 .footer {
@@ -126,12 +137,20 @@ a {
 		margin-right: auto;
 		list-style: none;
 		white-space: nowrap;
-		overflow: hidden;
+		/*overflow: hidden;*/
 		float: left;
 	}
 
 	.main > ul > li {
 		display: inline-block;
+	}
+
+	.main > ul > li img {
+		transition: all 0.4s ease-in-out;
+	}
+
+	.main > ul > li img:hover {
+		transform: scale(1.04);
 	}
 
 	.main > ul > li:nth-child(1) {

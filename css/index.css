@@ -91,8 +91,19 @@ a {
 .header > ul li {
 	line-height: 7.2rem;
 	float: left;
+	transition: all 0.3s linear;
+}
+
+.header > ul li > a {
+	display: inline-block;
 	padding-left: 2.4rem;
 	padding-right: 2.4rem;
+	height: 100%;
+	width: 100%;
+}
+
+.header > ul li:hover {
+	background: #FFFFFF;
 }
 
 .footer {
@@ -126,7 +137,7 @@ a {
 		margin-right: auto;
 		list-style: none;
 		white-space: nowrap;
-		overflow: hidden;
+		/*overflow: hidden;*/
 		float: left;
 	}
 
@@ -134,20 +145,28 @@ a {
 		display: inline-block;
 	}
 
-	.main > ul > li:nth-child(1) > img {
+	.main > ul > li img {
+		transition: all 0.4s ease-in-out;
+	}
+
+	.main > ul > li img:hover {
+		transform: scale(1.04);
+	}
+
+	.main > ul > li:nth-child(1) img {
 		display: inline-block;
 		height: 50rem;
 		border: 0.1rem #AAAAAA solid;
 		margin-right: 2.4rem;
 	}
 
-	.main > ul > li:nth-child(2) > img {
+	.main > ul > li:nth-child(2) img {
 		display: inline-block;
 		height: 50rem;
 		margin-right: 2.4rem;
 	}
 
-	.main > ul > li:nth-child(3) > img {
+	.main > ul > li:nth-child(3) img {
 		display: inline-block;
 		height: 50rem;
 		margin-right: 3.6rem;
@@ -188,20 +207,20 @@ a {
 		display: inline-block;
 	}
 
-	.main > ul > li:nth-child(1) > img {
+	.main > ul > li:nth-child(1) img {
 		display: inline-block;
 		float: left;
 		width: calc(100% - 0.2rem);
 		border: 0.1rem #AAAAAA solid;
 	}
 
-	.main > ul > li:nth-child(2) > img {
+	.main > ul > li:nth-child(2) img {
 		display: inline-block;
 		float: left;
 		width: 100%;
 	}
 
-	.main > ul > li:nth-child(3) > img {
+	.main > ul > li:nth-child(3) img {
 		display: inline-block;
 		float: left;
 		width: 100%;

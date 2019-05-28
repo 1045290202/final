@@ -95,8 +95,19 @@ a {
 .header > ul li {
 	line-height: 7.2rem;
 	float: left;
+	transition: all 0.3s linear;
+}
+
+.header > ul li > a {
+	display: inline-block;
 	padding-left: 2.4rem;
 	padding-right: 2.4rem;
+	height: 100%;
+	width: 100%;
+}
+
+.header > ul li:hover {
+	background: #FFFFFF;
 }
 
 .main h3 {
