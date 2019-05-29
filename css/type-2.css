@@ -91,13 +91,13 @@ a {
 .header > ul li {
 	line-height: 7.2rem;
 	float: left;
+	width: 9.6rem;
+	text-align: center;
 	transition: all 0.3s linear;
 }
 
 .header > ul li > a {
 	display: inline-block;
-	padding-left: 2.4rem;
-	padding-right: 2.4rem;
 	height: 100%;
 	width: 100%;
 }
@@ -217,8 +217,6 @@ a {
 	.header > ul li {
 		line-height: 3.6rem;
 		float: left;
-		padding-left: 1.6rem;
-		padding-right: 1.6rem;
 	}
 
 	.logo {

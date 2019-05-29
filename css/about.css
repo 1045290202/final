@@ -99,13 +99,13 @@ a {
 .header > ul li {
 	line-height: 7.2rem;
 	float: left;
+	width: 9.6rem;
+	text-align: center;
 	transition: all 0.3s linear;
 }
 
 .header > ul li > a {
 	display: inline-block;
-	padding-left: 2.4rem;
-	padding-right: 2.4rem;
 	height: 100%;
 	width: 100%;
 }
@@ -115,7 +115,7 @@ a {
 }
 
 .main div {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 
 .footer {
@@ -146,7 +146,7 @@ a {
 	}
 
 	.main h3 {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		margin-bottom: 1.8rem;
 	}
 
@@ -187,8 +187,6 @@ a {
 	.header > ul li {
 		line-height: 3.6rem;
 		float: left;
-		padding-left: 1.6rem;
-		padding-right: 1.6rem;
 	}
 
 	.logo {
@@ -201,7 +199,7 @@ a {
 	}
 
 	.main h3 {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		margin-bottom: 1.6rem;
 	}
 
